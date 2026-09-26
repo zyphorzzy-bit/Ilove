@@ -73,7 +73,7 @@ function createBackgroundWords() {
 
 function startMusic() {
 
-    music.volume = 0.45;
+    music.volume = 0.85;
 
     const playPromise =
         music.play();
