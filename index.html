@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Love You ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         TELA INICIAL
+    ========================== -->
+
+    <main id="startScreen" class="screen start-screen">
+
+        <div class="computer-window">
+
+            <div class="window-bar">
+                <div class="window-buttons">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="window-content">
+
+                <h1>DO YOU LOVE ME?</h1>
+
+                <div class="buttons">
+
+                    <button id="yesButton" class="choice-button yes">
+                        YES
+                    </button>
+
+                    <button id="noButton" class="choice-button no">
+                        NO
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- =========================
+         TELA FINAL
+    ========================== -->
+
+    <main id="loveScreen" class="screen love-screen">
+
+        <!-- Fundo animado -->
+        <div id="wordsBackground" class="words-background"></div>
+
+        <div class="love-content">
+
+            <div class="love-title">
+                LOVE YOU
+            </div>
+
+            <div class="heart-container">
+
+                <div class="heart-glow"></div>
+
+                <div class="heart">
+                    ♥
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Botão de música -->
+        <button id="musicButton" class="music-button">
+            ♫
+        </button>
+
+    </main>
+
+
+    <!-- Música -->
+    <audio id="backgroundMusic" loop preload="auto">
+        <source src="music/music.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
